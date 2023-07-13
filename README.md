@@ -187,52 +187,52 @@ relacionados con cada objetivo de aprendizaje.
 
 * **Uso de HTML semántico**
 
-  - [ ] La aplicación tiene un encabezado conformado por un
+  - [X] La aplicación tiene un encabezado conformado por un
   [`<header>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
   que es padre de un
   [`<h1>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1)
   con texto `Analizador de texto`. Para que puedas practicar más, estos
   elementos no pueden tener atributos `id`, ni `name`, ni `class`.
 
-  - [ ] La aplicación usa un
+  - [X] La aplicación usa un
   [`<textarea>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
   con un el atributo `name` en el valor `user-input` para permitir al usuario
   ingresar un texto. Para que puedas practicar más, este elemento no puede
   tener atributos `id`, ni `class`.
 
-  - [ ] La aplicación usa un
+  - [x] La aplicación usa un
   [`<ul>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
   con 6 hijos [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li),
   uno para mostrar cada métrica.  Para que puedas practicar más, estos
   elementos no pueden tener atributos `id` ni `name` ni hijos.
 
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+  - [X] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
   para mostrar el _recuento de palabras_ debe tener un atributo
   `data-testid` con valor `word-count`.
 
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+  - [X] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
   para mostrar el _recuento de caracteres_ debe tener un atributo
   `data-testid` con valor `character-count`.
 
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+  - [X] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
   para mostrar el
   _recuento de caracteres excluyendo espacios y signos de puntuación_
   debe tener un atributo
   `data-testid` con valor `character-no-spaces-count`.
 
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+  - [X] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
   para mostrar el _recuento de números_ debe tener un atributo
   `data-testid` con valor `number-count`.
 
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+  - [X] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
   para mostrar la _suma total de números_ debe tener un atributo
   `data-testid` con valor `number-sum`.
 
-  - [ ] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
+  - [X] El [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
   para mostrar la _longitud media de palabras_ debe tener un atributo
   `data-testid` con valor `word-length-average`.
 
-  - [ ] La aplicación tiene un pie de página conformado por un
+  - [X] La aplicación tiene un pie de página conformado por un
   [`<footer>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
   que es padre de un
   [`<p>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
@@ -240,7 +240,7 @@ relacionados con cada objetivo de aprendizaje.
   Para que puedas practicar más, estos elementos no pueden
   tener atributos `id`, ni `name`, ni `class`.
 
-  - [ ] La aplicación usa un
+  - [X] La aplicación usa un
   [`<button>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
   con el atributo `id` en el valor `reset-button` para permitir al usuario,
   mediante un clic, limpiar el contenido de la caja de texto.
@@ -249,14 +249,14 @@ relacionados con cada objetivo de aprendizaje.
 
 * **Uso de selectores de CSS**  
 
-  - [ ] La aplicación usa
+  - [X] La aplicación usa
   [`selectores CSS de tipo`](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#type_selectors)
   para darle estilo al
   [`<header>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
   y al
   [`<footer>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer).
   
-  - [ ] La aplicación usa
+  - [X] La aplicación usa
   [`selectores CSS de class`](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#class_selectors)
   para darle estilo a los
   [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
@@ -276,7 +276,7 @@ relacionados con cada objetivo de aprendizaje.
 
 * **Modelo de caja (box model): border, margen, padding**
 
-  - [ ] Las
+  - [X] Las
   [`clases css`](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#class_selectors)
   de los
   [`<li>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
