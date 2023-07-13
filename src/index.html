@@ -8,24 +8,37 @@
 </head>
 
 <body>
+<main>  
   <header>
-    <h1>Analizador de texto</h1>
+    <h1 class="flex-container">Analizador de texto</h1>
   </header>
 
-  <textarea></textarea>
-<ul>
-  <li>Recuento de palabras</li>
-  <li>Recuento de caracteres</li>
-  <li>Recuento de caracteres excluyendo espacios y signos de puntuación</li>
-  <li>Recuento de números</li>
-  <li>Suma total de números</li>
-  <li>Longitud media de palabras</li>
-</ul>  
 
 
+<div class="contenedor">
+ <ul>
+  <li class='p1' data-testing="word-count">Recuento de palabras</li>
+  <li class="p1" data-testing="character-count">Recuento de caracteres</li>
+  <li class="p1" data-testing="character-no-spaces-count">Recuento de caracteres sin espacios</li>
+  <li class="p1" data-testing="number-count">Recuento de números</li>
+  <li class="p1" data-testing="number-sum">Suma total de números</li>
+  <li class="p1" data-testing="word-length-average">Longitud media de palabras</li>
+ </ul>  
+</div>
+
+<div class="flex-container">
+  <textarea id="mensaje" name="mensaje" class="a" rows="3" cols="33">Escribe algo aquí</textarea>
+</div>
+
+
+<div class="flex-container">
+<button id="btn" >Limpiar texto</button>
+</div>>
+<div>
   <footer>
-    <p>Powered with ♡ by lxow</p>
+    <p>Powered with ♡ by Marianne Teixido</p>
   </footer>
+</div>
   <script src="index.js" type="module"></script>
 </body>
 </html>
