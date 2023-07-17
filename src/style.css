@@ -18,8 +18,8 @@ textarea[name="mensaje"] {
     margin: auto;
     padding: 5px;
     border: #999;
-    box-sizing: border-box;
-    background: fixed;
+    box-sizing: 10px;
+    background: white;
 
 }
 
