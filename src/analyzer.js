@@ -53,6 +53,17 @@ const analyzer = {
   },
   getNumberSum: (text) => {
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
+    const regex2 = /\d+/g;
+    let numS = text.value.match(regex2);
+    let str3 = 0; 
+    if(numS != null){
+      for(let i = 0; i <numS.length; i++){
+          str3 = str3 + parseFloat(numS[i]);
+      }
+      return str3;
+      //console.log(str3);
+    }
+
   },
 };
 
