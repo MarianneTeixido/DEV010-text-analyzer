@@ -10,11 +10,17 @@ footer {
     color:white;
 }
 
-textarea[class="a"] {
+textarea[name="mensaje"] {
     font-size: 18px;
     box-shadow: 3px 3px 3px #999;
     width: 400px;
+    height: 200px;
+    margin: auto;
     padding: 5px;
+    border: #999;
+    box-sizing: border-box;
+    background: fixed;
+
 }
 
 .flex-container {
@@ -22,13 +28,14 @@ textarea[class="a"] {
     justify-content: center;
 }
 
+/*
 .contenedor {
     display: flex;
     justify-content: center;
     flex-direction: row;
-}
+}*/
 
-li.p1 {
+.p1 {
     list-style-type: none;
     color:white;
     font-family: Helvetica, sans-serif ;
