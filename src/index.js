@@ -1,5 +1,7 @@
 import analyzer from './analyzer.js';
 
+//Redondear numeros decimales buscar math js
+
 //TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
 
 //inicial info
@@ -11,7 +13,7 @@ document.querySelector('[data-testing="number-sum"]').textContent = "Suma total 
 document.querySelector('[data-testing="word-length-average"]').textContent = "Longitud media de palabras: 0" ;
 
 //textarea strings
-const text = document.getElementById('mensaje');
+const text = document.getElementsByName("user-input")[0];
 text.addEventListener("keyup", () => {
   const wordCount = analyzer.getWordCount(text); // invocacion
   const chatCount = analyzer.getCharacterCount(text);
@@ -26,7 +28,7 @@ text.addEventListener("keyup", () => {
   document.querySelector('[data-testing="word-length-average"]').textContent = "Longitud media de palabras: "+ wordLength.toString();
 
   if(numCount !== null){
-    document.querySelector('[data-testing="number-count"]').textContent = "Recuento de números: "+ numCount.toString();
+    document.querySelector('[data-testing="number-count"]').textContent = "Recuento de números: "+ numCount;
     document.querySelector('[data-testing="number-sum"]').textContent = "Suma total de números: "+ numSum;
 
   }

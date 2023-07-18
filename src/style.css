@@ -10,7 +10,7 @@ footer {
     color:white;
 }
 
-textarea[name="mensaje"] {
+textarea[name="user-input"] {
     font-size: 18px;
     box-shadow: 3px 3px 3px #999;
     width: 400px;

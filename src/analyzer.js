@@ -51,6 +51,8 @@ const analyzer = {
     if(numC !== null ){
       return numC.length;
       //console.log(numC.length)
+    }else{
+      return 0;
     }
   },
 
@@ -66,6 +68,9 @@ const analyzer = {
       }
       return str3;
       //console.log(str3);
+    } else
+    {
+      return 0 ;
     }
   },
 };
