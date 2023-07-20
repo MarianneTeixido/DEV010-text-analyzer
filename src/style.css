@@ -47,7 +47,7 @@ textarea[name="user-input"] {
     border-radius: 8px;
 }
 
-#btn {
+#reset-button {
     font-size: 16px;
     border-radius: 8px;
     background-color: black;
